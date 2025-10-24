@@ -14,6 +14,7 @@ let posicaoInicial; //variavel para capturar a posicao
 const capturarLocalizacao = document.getElementById('localizacao');
 const latitude = document.getElementById('latitude');
 const longitude = document.getElementById('longitude');
+const mapa = document.getElementById
 
 const sucesso = (posicao) => { //callback de sucesso para captura da posicao
   posicaoInicial = posicao;
